@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A18CAEB52B2921B800F4C87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A18EE7622B23E2760055BE7E /* APIMaxWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIMaxWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18EE7652B23E2760055BE7E /* APIMaxWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMaxWeatherApp.swift; sourceTree = "<group>"; };
 		A18EE7672B23E2760055BE7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		A18EE7642B23E2760055BE7E /* APIMaxWeather */ = {
 			isa = PBXGroup;
 			children = (
+				A18CAEB52B2921B800F4C87D /* Info.plist */,
 				A18EE7652B23E2760055BE7E /* APIMaxWeatherApp.swift */,
 				A18EE7672B23E2760055BE7E /* ContentView.swift */,
 				A18EE7692B23E27F0055BE7E /* Assets.xcassets */,
@@ -274,6 +276,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"APIMaxWeather/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = APIMaxWeather/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +306,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"APIMaxWeather/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = APIMaxWeather/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
