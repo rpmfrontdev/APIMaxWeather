@@ -74,7 +74,7 @@ struct ContentView: View {
     @State private var minTemp: Double = 0
     @State private var city: String = ""
     @State private var coordinate: CLLocationCoordinate2D? = CLLocationCoordinate2D(latitude: 59.3293, longitude: 18.0686) // Stockholm as default city
-    let apiKey = "d9f15e6a527134d0f13823fdda92e319"
+    let apiKey = " " // Insert apikey here
     
     var body: some View {
         VStack(alignment: .center) {
